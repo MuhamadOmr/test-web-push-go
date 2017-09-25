@@ -70,7 +70,7 @@ func NewPushRequest(sub *Subscription, message string, token string) (*http.Requ
 }
 
 // Send a message using the Web Push protocol to the recipient identified by the
-// given subscription object. If the client is nil then the default HTTP client
+// given suiptbscrion object. If the client is nil then the default HTTP client
 // will be used. If the push service requires an authentication header (notably
 // Google Cloud Messaging, used by Chrome) then you can add that as the token
 // parameter.
